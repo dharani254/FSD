@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Input Methods</title>
+</head>
+<body>
+
+<h2>JavaScript Input Methods</h2>
+
+<p id="inputDemo"></p>
+
+<script>
+    // 1. prompt()
+    let name = prompt("Enter your name:");
+
+    // 2. form input using HTML element (example)
+    let age = 25; // Example, normally taken from input field
+
+    // 3. Confirm box
+    let agree = confirm("Do you agree?");
+
+    document.getElementById("inputDemo").innerHTML = 
+        "Name: " + name + "<br>Age: " + age + "<br>Agree? " + agree;
+</script>
+
+</body>
+</html>
