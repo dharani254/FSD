@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Font & Text Properties Table</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Table-like container */
+.property-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.property-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.property-label {
+    width: 30%;
+    font-weight: bold;
+}
+
+.property-sample {
+    width: 65%;
+    padding: 5px 10px;
+    border-left: 1px solid #ccc;
+}
+
+/* Sample styling for each property */
+.font-size-sample { font-size: 24px; }
+.font-weight-sample { font-weight: bold; }
+.font-style-sample { font-style: italic; }
+.text-decoration-sample { text-decoration: underline; }
+.text-transform-sample { text-transform: uppercase; }
+.text-align-sample { text-align: center; background-color: #e0e0e0; padding: 10px; }
+</style>
+</head>
+<body>
+
+<h2>CSS Font & Text Properties Demo</h2>
+
+<div class="property-table">
+    <div class="property-row">
+        <div class="property-label">font-size</div>
+        <div class="property-sample font-size-sample">This text is 24px in size</div>
+    </div>
+    
+    <div class="property-row">
+        <div class="property-label">font-weight</div>
+        <div class="property-sample font-weight-sample">This text is bold</div>
+    </div>
+
+    <div class="property-row">
+        <div class="property-label">font-style</div>
+        <div class="property-sample font-style-sample">This text is italic</div>
+    </div>
+
+    <div class="property-row">
+        <div class="property-label">text-decoration</div>
+        <div class="property-sample text-decoration-sample">This text is underlined</div>
+    </div>
+
+    <div class="property-row">
+        <div class="property-label">text-transform</div>
+        <div class="property-sample text-transform-sample">this text is uppercase</div>
+    </div>
+
+    <div class="property-row">
+        <div class="property-label">text-align</div>
+        <div class="property-sample text-align-sample">This text is centered</div>
+    </div>
+</div>
+
+</body>
+</html>
