@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Object Example</title>
+</head>
+<body>
+    <h1 id="header">Hello World!</h1>
+    <p>This paragraph demonstrates the document object.</p>
+
+    <script>
+        // Accessing document properties
+        console.log("Document Title: " + document.title);
+        console.log("Document URL: " + document.URL);
+
+        // Using document methods
+        document.getElementById("header").innerText = "Welcome to JavaScript!";
+        document.write("<p>This paragraph is added using document.write()</p>");
+        alert("Document object methods executed!");
+    </script>
+</body>
+</html>
