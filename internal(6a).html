@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Internal & External JS Demo</title>
+<!-- Link to external JS file -->
+<script src="external.js"></script>
+</head>
+<body>
+
+<h2>Internal JavaScript</h2>
+<p id="internal"></p>
+
+<script>
+    // Internal JS
+    document.getElementById('internal').innerText = "This message is from internal JavaScript.";
+</script>
+
+<h2>External JavaScript</h2>
+<p id="external"></p>
+
+<script>
+    // Call function defined in external.js
+    displayExternalMessage();
+</script>
+
+</body>
+</html>
