@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Color References</title>
+<style>
+/* Color boxes styling */
+.color-box {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Different ways to reference colors */
+.color-name { background-color: red; }           /* Color name */
+.color-hex { background-color: #00FF00; }        /* Hex code */
+.color-rgb { background-color: rgb(0, 0, 255); } /* RGB */
+.color-rgba { background-color: rgba(255, 165, 0, 0.7); } /* RGBA with transparency */
+.color-hsl { background-color: hsl(300, 100%, 50%); }     /* HSL */
+</style>
+</head>
+<body>
+
+<h2>CSS Color References</h2>
+<div class="color-box color-name">Red</div>
+<div class="color-box color-hex">#00FF00</div>
+<div class="color-box color-rgb">RGB(0,0,255)</div>
+<div class="color-box color-rgba">RGBA(255,165,0,0.7)</div>
+<div class="color-box color-hsl">HSL(300,100%,50%)</div>
+
+</body>
+</html>
